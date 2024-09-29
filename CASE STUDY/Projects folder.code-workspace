@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Projects folder"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "webprog_acts"
+	}
+}
