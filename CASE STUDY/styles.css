@@ -10,6 +10,7 @@
     --secondary-color: #B43F3F;
     --accent-color: #FF8225;
     --footer-color: #10182e;
+    --footer-dark-color: #0c1120;
 
     --base-color: white;
     
@@ -280,7 +281,6 @@ input[type="text"] {
 }
 
 .category {
-    margin-left: 15px;
     border: 2px solid black;
 }
 
@@ -642,6 +642,10 @@ ul {
     text-decoration: underline;
 }
 
+.dropdown-toggle {
+    display: none;
+}
+
 
 .footer-right {  
     display: flex;
@@ -719,4 +723,14 @@ ul {
 
 .last-text{
     color: white;
+    
+}
+
+.last-text a{
+    text-decoration: none;
+    color: var(--base-color)
+}
+
+.last-text a:hover {
+    text-decoration: underline;
 }
