@@ -109,25 +109,37 @@ body{
     background-color: #ccc;
 }
 
-
 .fa-cart-shopping, .fa-user {
     color: black;
 }
 
-#search-bar{
+#search-bar {
     border-radius: 20px;
     border: 0px;
-}
-
-input#search-bar{
     width: 400px;
     height: 20px;
     text-align: right;
-    box-shadow: 0px 3px 10px  rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    padding-right: 30px; 
 }
 
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+.search-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}
+
+
 input[type="text"] {
-    padding:5px;
+    padding: 5px 10px 5px 30px;
 }
 
 
@@ -706,8 +718,6 @@ ul {
 .last-text{
     color: white;
 }
-
-
 
 
 /* RESPONSIVENESS */
