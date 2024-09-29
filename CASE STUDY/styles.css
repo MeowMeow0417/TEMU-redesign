@@ -532,11 +532,16 @@ input[type="text"] {
 }
 
 .profile {
-    border-radius: 20px;
+    border-radius: 50px;
     height: 100px;
     width: 100px;
-    border: 2px solid;
-    margin: 20px
+    margin: 20px;
+    object-fit: contain;
+
+}
+
+.profile img{
+   
 }
 
 .reviewer {
