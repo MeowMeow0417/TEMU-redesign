@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-queries.css">
     <link rel="icon" href="banner/icon.png" sizes="32x32" type="image/png">
     <title>TEMU</title>
 </head>
@@ -13,8 +14,8 @@
     <header class="navbar" id="navbar">
         <img class="logo" src="apple + play store/Temu-Logo.png" alt="temu logo">
 
-        <div class="links">
-            <a href="#">Best Selllers</a>
+        <div class="links" id="nav-links">
+            <a href="#">Best Sellers</a>
             <a href="#">5 Star Rated</a>
             <a href="#">Anniversary Sale</a>
             <a href="#New-Arrivals">Arrivals</a>
@@ -27,7 +28,11 @@
                     <a href="#">Electronics</a>
                 </div>
             </div>
-        </div> 
+        </div>
+
+        <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
 
         <div class="right-icons">
             <div class="search-container">
@@ -38,6 +43,7 @@
             <a href="#" class="nav-icons"><i class="fa-solid fa-user"></i></a>
         </div>
     </header>
+    
 
     <!-- Landing page -->
 
@@ -512,5 +518,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

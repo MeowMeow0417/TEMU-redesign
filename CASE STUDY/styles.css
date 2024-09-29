@@ -51,12 +51,17 @@ body{
     object-fit: cover;
 }
 
-.navbar .links {
+.links {
     display: flex;
     gap: 25px;
 }
 
-.navbar .links a{
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.links a{
     text-decoration: none;
     color: black;
 }
@@ -359,11 +364,14 @@ input[type="text"] {
     flex-direction: column;
     padding: 15px;
     width: auto;
+
+    max-width: 100%; /* Ensure card fits within its container */
+    box-sizing: border-box;
 }
 
 .product-card img{
-    width: 280px;
-    height: 350px;
+    width: 100%;
+    height: auto;
 }
 
 .product-info {
@@ -611,6 +619,7 @@ input[type="text"] {
     width: 400px;       
 }
 
+
 .th-header-content ul, 
 ul {
     padding-left: 0;
@@ -662,13 +671,11 @@ ul {
     gap: 5px; 
 }
 
-
 .payment-icons, .security-icons {
     height: 25px; /* Keep the height */
     margin: 0 !important; /* Forcefully remove any margin */
     padding: 0 !important; /* Forcefully remove any padding */
 }
-
 
 .security-column {
     display: flex;
@@ -682,16 +689,11 @@ ul {
     gap: 5px;
 }
 
-
-
-
 .accept-head, .security-head {
     font-size: 16px; 
     margin-bottom: 10px;
     font-family: var(--second-font);
 }
-
-
 
 .line-break {
     border: 2.4px solid white;
@@ -718,7 +720,3 @@ ul {
 .last-text{
     color: white;
 }
-
-
-/* RESPONSIVENESS */
-

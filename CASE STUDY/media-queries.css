@@ -1,0 +1,130 @@
+@media screen and (max-width: 430px) {
+
+    .links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: var(--base-color); /* Background color for the menu */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+
+    .dropdown {
+        background-color: var(--base-color);
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    #search-bar {
+        width: 75%;
+    }
+
+    .links.active{
+        display: flex;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 0;
+    }
+
+
+    .hamburger {
+        display: block;
+    }
+
+    .right-icons{
+        display: none;
+    }
+
+    /*Landing page*/
+
+    .landing-page {
+        height: 200px; 
+        padding: 5px;
+        margin: 10px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner-content {
+        top: 30px; 
+        left: 20px;
+    }
+
+    .banner-content h2 {
+        font-size: 16px; 
+    }
+
+    .banner-content p {
+        font-size: 18px; 
+    }
+
+    .btn-shop {
+        font-size: 12px; 
+        padding: 5px 8px; 
+    }
+
+    .options {
+        display: none;
+    }
+
+    .category-container h2{
+        font-size: 12px;
+    } .category-container p {
+        display: none;
+    }
+
+    .category-grid {
+        display: grid;
+    }
+
+    .Prod-feat{
+        font-size: 16px;
+    }
+
+    .product-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .product-card{    
+        width: calc(100% - 20px);
+        margin: 10px; 
+        box-sizing: border-box; 
+    }
+    .product-card img {
+        width: 100%; 
+        height: auto;
+    }
+    .product-title {
+        font-size: 16px; /* Smaller font size for titles */
+    }
+    .star-overall, .rating-value {
+        font-size: 14px; /* Smaller font size for stars and ratings */
+    }
+    .product-category {
+        font-size: 10px; /* Smaller font size for categories */
+    }
+    .product-price {
+        font-size: 20px; /* Smaller font size for price */
+    }
+    .star {
+        font-size: 18px; /* Smaller size for stars */
+    }
+
+    .Review-section{
+        display: none;
+    }
+
+    .footer-left, .footer-right{
+        display: none;
+    }
+
+    
+}
