@@ -99,13 +99,20 @@
         margin: 5px 0;
     }
     .category {
-        margin-left: none;
+        margin-left: 0;
     }
 
     .item1, .item5, .item3, .item4, .item2, .item6 {
         width: 50px; 
         height: 100px; 
         object-fit: cover; 
+    }
+
+    .item1:hover, .item2:hover, .item3:hover, 
+    .item4:hover, .item5:hover, .item6:hover, 
+    .category:hover {
+        transform: scale(1.1); 
+        z-index: 2; 
     }
 
     .item6 {
