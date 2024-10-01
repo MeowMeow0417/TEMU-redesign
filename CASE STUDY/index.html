@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="media-queries.css">
     <link rel="icon" href="banner/icon.png" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="animation.css">
+    
     <title>TEMU</title>
 </head>
 <body>
@@ -80,153 +81,182 @@
             </div>
 
             <!-- Return Guarantee -->
-             <div class="benefits">
+            <div class="benefits">
                 <i class="fa-solid fa-shield"></i>
                 <p>Return Guarantee</p>
-             </div>
+            </div>
         </div>
     </section>
 
 
-    <!--- Categories -->
+<!-- Categories -->
+<div class="category-container">
+    <h2><span class="contrast">SHOP</span> by Category</h2>
+    <p>Discover our featured category of the <span class="contrast">week</span></p>
 
-    <div class="category-container">
-        <h2><span class="contrast">SHOP</span> by Category</h2>
-        <p>Discover our featured category of the <span class="contrast-">week</span></p>
+    <div class="category-grid">
+        <div class="category womens">
+            <div class="slider">
+                <img class="slide active" src="arrivals + featured/category/womens.png" alt="Womens">
+                <img class="slide" src="arrivals + featured/category/women-slider1.jpg" alt="women-slider1">
+                <img class="slide" src="arrivals + featured/category/women-slider2.jpg" alt="women-slider2">
+            </div>
+            <span class="category-text">WOMENS</span>
+        </div>
 
-        <div class="category-grid">
-            <div class="category item1">
-                <img class="item1" src="arrivals + featured/category/womens.png" alt="Womens">
-              <!-- <span class="category-text-1">WOMENS</span>-->
+        <div class="category mens">
+            <div class="slider">
+                <img class="slide active" src="arrivals + featured/category/mens.png" alt="mens">
+                <img class="slide" src="arrivals + featured/category/men-slider1.jpg" alt="men-slider1">
+                <img class="slide" src="arrivals + featured/category/men-slider2.jpg" alt="men-slider2">
             </div>
-            <div class="category item2">
-                <img class="item2" src="arrivals + featured/category/mens.png" alt="Mens">
-                <!-- <span class="category-text-2">MENS</span>-->
-                
+            <span class="category-text">MENS</span>
+        </div>
+
+        <div class="category men-shoes">
+            <div class="slider">
+                <img class="slide active" src="arrivals + featured/category/mens shoes.png" alt="mens shoes">
+                <img class="slide" src="arrivals + featured/category/Mshoes-slider1.jpg" alt="Mshoes-slider1">
+                <img class="slide" src="arrivals + featured/category/Mshoes-slider2.jpg" alt="Mshoes-slider2">
             </div>
-            <div class="category item3">
-                <img  class="item3" src="arrivals + featured/category/mens shoes.png" alt="Mens Shoes">
-                <!-- <span class="category-text-3">MENS SHOES</span>-->
+            <span class="category-text">MEN SHOES</span>
+        </div>
+
+        <div class="category hoodies-jackets">
+            <div class="slider">
+                <img class="slide active" src="arrivals + featured/category/hoods and jackets.png" alt="hoods and jackets">
+                <img class="slide" src="arrivals + featured/category/H&J-slider1.jpg" alt="H&J-slider1">
+                <img class="slide" src="arrivals + featured/category/H&J-slider2.jpg" alt="H&J-slider2">
             </div>
-            <div class="category item4">
-                <img  class="item4"src="arrivals + featured/category/hoods and jackets.png" alt="Hoodies and Jackets">
-                <!-- <span class="category-text-1">HOODIES AND JACKETS</span>-->
+            <span class="category-text">HOODIES AND JACKETS</span>
+        </div>
+
+        <div class="category women-shoes">
+            <div class="slider">
+                <img class="slide active" src="arrivals + featured/category/womens shoes.png" alt="womens shoes">
+                <img class="slide" src="arrivals + featured/category/Wshoes-slider1.jpg" alt="Wshoes-slider1">
+                <img class="slide" src="arrivals + featured/category/Wshoes-slider2.jpg" alt="Wshoes-slider2">
             </div>
-            <div class="category item5">
-                <img class="item5"src="arrivals + featured/category/womens shoes.png" alt="Womens Shoes">
-                <!-- <span class="category-text-1">WOMEN SHOES</span>-->
+            <span class="category-text">WOMEN SHOES</span>
+        </div>
+
+        <div class="category electronics">
+            <div class="slider">
+                <img class="slide active" src="arrivals + featured/category/electronics.png" alt="electronics">
+                <img class="slide" src="arrivals + featured/category/electronics-slider1.jpg" alt="electronics-slider1">
+                <img class="slide" src="arrivals + featured/category/electronics-slider2.jpg" alt="electronics-slider2">
             </div>
-            <div class="category item6">
-                <img class="item6" src="arrivals + featured/category/electronics.png" alt="Electronics">
-                <!-- <span class="category-text-1">ELECTRONICS</span>-->
-            </div>
+            <span class="category-text">ELECTRONICS</span>
         </div>
     </div>
+</div>
+<script src="animation.js"></script>
+
 
     <!-- New Arrivals section -->
     
-    <div class="New-Arrivals">
-        <div class="Prod-feat" id="Prod-feat">
-            <div class="header-name">
-                <p>New Arrivals</p>
-            </div>
-            <div class="right-nav">
-                <nav class="product-show">
-                    <button class="viewAll" id="view_a">View All</button>
-                </nav>
+<div class="New-Arrivals">
+    <div class="Prod-feat" id="Prod-feat">
+        <div class="header-name">
+            <p>New Arrivals</p>
+        </div>
+        <div class="right-nav">
+            <nav class="product-show">
+                <button class="viewAll" id="view_a">View All</button>
+            </nav>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <div class="product-card">
+            <img src="arrivals + featured/fan.png" alt="Handhold Mini Fan" class="product-image">
+            <div class="product-info">
+                <h3 class="product-title">Handhold Mini Fan</h3>
+                <div class="product-rating-overall">
+                    <span class="star-overall">★</span>
+                    <p class="rating-value">4.3</p>
+                </div>
+            </div>    
+            <p class="product-category">Fans & Air Conditioner</p>
+            <div class="product-price-container">
+                <p class="product-price">₱700</p>
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star empty">★</span>
+                    <span class="star empty">★</span>
+                </div>
             </div>
         </div>
 
-        <div class="product-container">
-            <div class="product-card">
-                <img src="arrivals + featured/fan.png" alt="Handhold Mini Fan" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Handhold Mini Fan</h3>
-                    <div class="product-rating-overall">
-                        <span class="star-overall">★</span>
-                        <p class="rating-value">4.3</p>
-                    </div>
-                </div>    
-                <p class="product-category">Fans & Air Conditioner</p>
-                <div class="product-price-container">
-                    <p class="product-price">₱700</p>
-                    <div class="stars">
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star empty">★</span>
-                        <span class="star empty">★</span>
-                    </div>
+        <div class="product-card">
+            <img src="arrivals + featured/scooter.png" alt="Electric Scooter" class="product-image">
+            <div class="product-info">
+                <h3 class="product-title">Electric Scooter</h3>
+                <div class="product-rating-overall">
+                    <span class="star-overall">★</span>
+                    <p class="rating-value">4.4</p>
+                </div>
+            </div>    
+            <p class="product-category">Sports</p>
+            <div class="product-price-container">
+                <p class="product-price">₱2,185</p>
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star empty">★</span>
+                    <span class="star empty">★</span>
                 </div>
             </div>
+        </div>
 
-            <div class="product-card">
-                <img src="arrivals + featured/scooter.png" alt="Electric Scooter" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Electric Scooter</h3>
-                    <div class="product-rating-overall">
-                        <span class="star-overall">★</span>
-                        <p class="rating-value">4.4</p>
-                    </div>
-                </div>    
-                <p class="product-category">Sports</p>
-                <div class="product-price-container">
-                    <p class="product-price">₱2,185</p>
-                    <div class="stars">
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star empty">★</span>
-                        <span class="star empty">★</span>
-                    </div>
+        <div class="product-card">
+            <img src="arrivals + featured/wide leg.png" alt="Wide Leg Pants" class="product-image">
+            <div class="product-info">
+                <h3 class="product-title">Wide Leg Pants</h3>
+                <div class="product-rating-overall">
+                    <span class="star-overall">★</span>
+                    <p class="rating-value">4.5</p>
+                </div>
+            </div>    
+            <p class="product-category">Women's Pants</p>
+            <div class="product-price-container">
+                <p class="product-price">₱339</p>
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star empty">★</span>
+                    <span class="star empty">★</span>
                 </div>
             </div>
+        </div>
 
-            <div class="product-card">
-                <img src="arrivals + featured/wide leg.png" alt="Wide Leg Pants" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Wide Leg Pants</h3>
-                    <div class="product-rating-overall">
-                        <span class="star-overall">★</span>
-                        <p class="rating-value">4.5</p>
-                    </div>
-                </div>    
-                <p class="product-category">Women's Pants</p>
-                <div class="product-price-container">
-                    <p class="product-price">₱339</p>
-                    <div class="stars">
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star empty">★</span>
-                        <span class="star empty">★</span>
-                    </div>
+        <div class="product-card">
+            <img src="arrivals + featured/photo album.png" alt="Transparent Album" class="product-image">
+            <div class="product-info">
+                <h3 class="product-title">Transparent Album</h3>
+                <div class="product-rating-overall">
+                    <span class="star-overall">★</span>
+                    <p class ="rating-value">4.3</p>
                 </div>
-            </div>
-
-            <div class="product-card">
-                <img src="arrivals + featured/photo album.png" alt="Transparent Album" class="product-image">
-                <div class="product-info">
-                    <h3 class="product-title">Transparent Album</h3>
-                    <div class="product-rating-overall">
-                        <span class="star-overall">★</span>
-                        <p class="rating-value">4.3</p>
-                    </div>
-                </div>    
-                <p class="product-category">Scrapbooking and Stamping</p>
-                <div class="product-price-container">
-                    <p class="product-price">₱97</p>
-                    <div class="stars">
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star">★</span>
-                        <span class="star empty">★</span>
-                        <span class="star empty">★</span>
-                    </div>
+            </div>    
+            <p class="product-category">Scrapbooking and Stamping</p>
+            <div class="product-price-container">
+                <p class="product-price">₱97</p>
+                <div class="stars">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star empty">★</span>
+                    <span class="star empty">★</span>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 
     <!-- Featured section -->
