@@ -22,6 +22,11 @@
     --third-font: "Antonio", sans-serif;
 }
 
+html, body {
+    overflow-x: hidden;
+    
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -30,6 +35,11 @@ body{
     padding: 0;
     margin: 0;
     background-color: var(--bg-color); 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* header */
@@ -300,16 +310,7 @@ input[type="text"] {
     object-fit: cover;
 }
 
-/*
-.category-text-1, .category-text-2,
-.category-text-3, .category-text-4, 
-.category-text-5, .category-text-6{
-    font-family: var(--first-font);
-    position: absolute;
-    font-size: 24px;
-    text-transform: uppercase;
-    z-index: 2;
-} */
+
 
 /* Featured products */
 
