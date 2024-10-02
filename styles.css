@@ -607,7 +607,7 @@ input[type="text"] {
 
 .footer-middle {
     width: 650px;
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
     font-size: 10px;
     display: flex;
     justify-content: space-between;
@@ -662,19 +662,15 @@ ul {
     font-family: var(--first-font);
     margin: 0 auto; 
     font-size: 8px; 
-    width: auto;
+    width: 60%; 
+    max-width: 80vw; 
+    box-sizing: border-box; 
+    padding: 0 10px; 
 }  
 
-
-.footer-payments {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    margin-bottom: 15px; 
-}
-
 .payment-grid, .security-grid {
-    width: auto; 
+    width: 100%;
+    box-sizing: border-box; 
 }
 
 .payment-grid {
@@ -684,9 +680,9 @@ ul {
 }
 
 .payment-icons, .security-icons {
-    height: 25px; /* Keep the height */
-    margin: 0 !important; /* Forcefully remove any margin */
-    padding: 0 !important; /* Forcefully remove any padding */
+    height: 25px; 
+    margin: 0 !important; 
+    padding: 0 !important;
 }
 
 .security-column {
@@ -706,6 +702,7 @@ ul {
     margin-bottom: 10px;
     font-family: var(--second-font);
 }
+
 
 .line-break {
     border: 2.4px solid white;
@@ -729,9 +726,12 @@ ul {
     margin: 0;
 }
 
+.social-links{
+    margin: 2.5px;
+}
+
 .last-text{
-    color: white;
-    
+    color: white;   
 }
 
 .last-text a{
