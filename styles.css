@@ -662,14 +662,21 @@ ul {
     font-family: var(--first-font);
     margin: 0 auto; 
     font-size: 8px; 
-    width: 60%; 
-    max-width: 80vw; 
+    width: 50%; 
+    max-width: 70vw; 
     box-sizing: border-box; 
     padding: 0 10px; 
 }  
 
+.footer-payments {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 15px; 
+}
+
 .payment-grid, .security-grid {
-    width: 100%;
+    width: 100%; 
     box-sizing: border-box; 
 }
 
