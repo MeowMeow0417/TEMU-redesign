@@ -186,13 +186,6 @@ input[type="text"] {
     gap: 10px;
 }
 
-
-.banner-content h2{
-    margin: 0;
-    font-size: 20px;
-    font-family: var(--first-font);
-}
-
 .banner-content p{
     margin: 5px 0px;
     font-size: 25px;
