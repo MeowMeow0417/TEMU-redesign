@@ -16,6 +16,7 @@
     
     --star-color: #ffc107;
     --empty-color: #999;
+    --contrast-color: #ff4500;
 
     --first-font: "Poppines", sans-serif;
     --second-font: "Inter", sans-serif;
@@ -268,12 +269,10 @@ input[type="text"] {
 }
 
 .contrast {
-    color: var(--primary-color);
+    color: var(--contrast-color);
 }
 
-.contrast-{
-    color: var(--secondary-color);
-}
+
 
 /* category-grid */
 .category-grid{
