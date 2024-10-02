@@ -253,29 +253,27 @@
 
     .product-card {
         width: 100%; 
-        margin: 0px;  
+        margin: 0; 
         box-shadow: 0 0 5px 1px rgb(18, 18, 18); 
     }
 
-    /* Optional: Modify hover scale for small screens */
     .product-card:hover {
         transform: scale(1.05); 
     }
 
-    /* Adjust product image size */
     .product-image {
         width: 100%; 
         height: auto;
     }
 
-    /* Adjust grid for smaller screens */
     .category-grid {
         grid-template-columns: 1fr 1fr; 
         grid-gap: 10px;  
     }
 
-    /* Make sure the category items fit well in the smaller layout */
     .womens, .mens, .men-shoes, .hoodies-jackets, .women-shoes, .electronics {
         height: auto;  
     }
 }
+
+
