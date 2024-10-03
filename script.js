@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
 document.querySelectorAll('.dropdown-toggle').forEach(function(toggle) {
     toggle.addEventListener('click', function() {
         
