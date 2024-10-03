@@ -154,3 +154,38 @@
 .category:hover .category-text {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+/**/
+
+.links a:hover, .dropbtn:hover {
+    text-decoration: underline;
+    color:var(--accent-color); 
+    transition: color 0.3s ease, text-shadow 0.3s ease; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer; 
+} 
+
+.fa-solid:hover {
+    color: var(--empty-color); 
+    transform: scale(1.2); 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+button:hover {
+   
+    transform: translateY(-3px); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+button:active {
+    transform: translateY(1px); 
+}
+
+#search-bar:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+#search-bar:focus {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
