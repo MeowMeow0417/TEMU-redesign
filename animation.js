@@ -1,4 +1,5 @@
-const slideDuration = 1500; // 1.5 seconds per slide
+const slideDuration = 1500; 
+let slideshowInterval;
 
 function showSlides() {
     const sliders = document.querySelectorAll('.slider');
@@ -13,11 +14,35 @@ function showSlides() {
         slides[nextIndex].classList.add('active');
     });
 
-    // Schedule next slide change
-    setTimeout(showSlides, slideDuration);
+    slideshowInterval = setTimeout(showSlides, slideDuration);
 }
 
-// Start the slideshow when the page loads
-window.addEventListener('load', () => {
+function stopSlideshow() {
+    clearTimeout(slideshowInterval);
+}
+
+function startSlideshow() {
+    stopSlideshow(); 
     showSlides();
+}
+
+document.querySelectorAll('.category').forEach(category => {
+    const slides = category.querySelectorAll('.slide');
+    
+    category.addEventListener('mouseenter', () => {
+        stopSlideshow();
+        slides[0].classList.remove('active');
+        slides[1].classList.add('active');
+    });
+
+    category.addEventListener('mouseleave', () => {
+        slides[1].classList.remove('active');
+        slides[0].classList.add('active');
+        startSlideshow();
+    });
 });
+
+window.addEventListener('load', () => {
+    startSlideshow();
+});
+

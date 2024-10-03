@@ -13,3 +13,4 @@ document.querySelectorAll('.dropdown-toggle').forEach(button => {
         content.classList.toggle('active');
     });
 });
+
