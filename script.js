@@ -1,10 +1,12 @@
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.getElementById('nav-links');
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
 
-hamburger.addEventListener('click', () => {
-    console.log("Hamburger clicked!"); 
-    navLinks.classList.toggle('active');
+    hamburger.addEventListener('click', function() {
+        navLinks.classList.toggle('active'); 
+    });
 });
+
 
 
 document.querySelectorAll('.dropdown-toggle').forEach(function(toggle) {
@@ -15,13 +17,3 @@ document.querySelectorAll('.dropdown-toggle').forEach(function(toggle) {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    const hamburger = document.getElementById('hamburger');
-    const navLinks = document.getElementById('nav-links');
-
-    // Add a click event to the hamburger
-    hamburger.addEventListener('click', function() {
-        // Toggle the 'active' class on the nav links
-        navLinks.classList.toggle('active');
-    });
-});

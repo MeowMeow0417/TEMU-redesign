@@ -157,6 +157,13 @@
 
 /**/
 
+.links.active {
+    display: flex;
+    border-radius: 0.625rem; /* rem */
+    padding: 0.725rem; /* rem */
+    margin: 0;
+}
+
 .links a:hover, .dropbtn:hover {
     text-decoration: underline;
     color:var(--accent-color); 
@@ -165,7 +172,7 @@
     cursor: pointer; 
 } 
 
-.fa-solid:hover {
+.fa-cart-shopping:hover, .fa-user:hover{
     color: var(--empty-color); 
     transform: scale(1.2); 
     transition: color 0.3s ease, transform 0.3s ease; 
