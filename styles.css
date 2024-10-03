@@ -161,18 +161,6 @@ img {
     display: none; 
 }
 
-.links.active {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 4rem;
-    left: 0;
-    width: 60%;
-    background-color: var(--base-color);
-    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
-
 
 input[type="text"] {
     padding: 0.5rem 1rem 0.5rem 2rem;

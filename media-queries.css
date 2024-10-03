@@ -288,9 +288,29 @@
     }
 }
 
+@media (min-width: 1025px) {
+    .links {
+        display: flex; /* Ensure links are visible on large screens */
+        gap: 2rem; /* Adjust spacing if necessary */
+    }
+
+    .dropdown {
+        display: inline-block; /* Ensure dropdowns are visible */
+    }
+
+    .hamburger {
+        display: none; /* Hide hamburger icon for larger screens */
+    }
+
+    #search-bar {
+        width: auto; /* Adapt search bar width for larger screens */
+    }
+}
+
+
 
 @media (max-width: 1024px) and (max-height: 800px) {
-    .navbar.active .links {
+    .navbar.links .links {
         display: flex; 
         flex-direction: column; 
         width: 100%; 
@@ -312,6 +332,7 @@
         width: auto;
     }
 }
+
 
 /* MEDIUM AND LARGESCREEN */
 @media (max-width: 1024px) {
